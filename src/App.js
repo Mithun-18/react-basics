@@ -1,14 +1,17 @@
-//import logo from './logo.svg';
-import React,{Component} from 'react';
+import React from 'react';
 import './App.css';
-import {Greet} from './components/Greet';
-import Welcome from './components/Welcome';
+import Header from './components/Header';
+
+let Profile=["Mithun","Poojary"];
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Greet/>
-      <Welcome/>
+    <div className="App" >
+        <Header items={Profile}/>
+
     </div>
   );
 }
