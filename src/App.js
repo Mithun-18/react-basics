@@ -1,16 +1,21 @@
-import React from 'react';
+// import React from 'react';
 import './App.css';
-import Header from './components/Header';
+//  import Header from './components/Header';
 
-let Profile=["Mithun","Poojary"];
+import Navigation from './components/navigation';
+let Profile=["Home","About","Vision","Help"];
 
-
+// function Head(props){
+//   return <h1>{props.name}</h1>;
+// }
 
 
 function App() {
   return (
     <div className="App" >
-        <Header items={Profile}/>
+        {/* <Header items={Profile}/>  */}
+      
+        <Navigation names={Profile}/>
 
     </div>
   );
