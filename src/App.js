@@ -1,5 +1,6 @@
 // import React from 'react';
 import './App.css';
+import Event from './components/Event';
 //  import Header from './components/Header';
 
 import Navigation from './components/navigation';
@@ -15,8 +16,8 @@ function App() {
     <div className="App" >
         {/* <Header items={Profile}/>  */}
       
-        <Navigation names={Profile}/>
-
+        {/* <Navigation names={Profile}/> */}
+        <Event/>
     </div>
   );
 }
